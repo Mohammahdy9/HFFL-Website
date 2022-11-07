@@ -120,3 +120,51 @@
   </div>
   </nav>
   </header>
+  <body>
+    <div class = "container my-5">
+      <h2> List of teams </h2>
+      <br>
+      <table class = "table">
+        <thead>
+          <tr>
+            <th>Team ID</th>
+            <th>Team Name</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>W\L Ratio</th>
+            <th>Operations</th>
+          </tr>
+        <thead>
+          <?php
+          $servername = "hffldb.crex5mtah7fd.us-east-2.rds.amazonaws.com";
+          $username = "admin499";
+          $password = "ICS49922";
+          $database = "hffl";
+
+          $conn = new mysqli($servername, $username, $password, $database);
+          if ($conn->connect_error){
+            die("Connection failed: " . $conn->connect_error);
+          }
+          $sql = "SELECT * FROM teams";
+          $result = $conn->query($sql);
+
+          while($row = $result->fetch_assoc()){
+          echo "
+            <tr>
+              <td>$row[idteams]</td>
+              <td>$row[team_name]</td>
+              <td>$row[wins]</td>
+              <td>$row[losses]</td>
+              <td>$row[win_loss_ratio]</td>
+              <td>
+                <button><a href= adminupdateteam.php>Update</a></button>
+                <button><a href= admindeleteteam.php>Delete</a></button>
+              </td>
+            </tr>
+            ";
+          }
+          ?>
+      </table>
+    </div>
+  </body>
+</html>

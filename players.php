@@ -37,10 +37,9 @@
     <div class = "container my-5">
       <h2> List of players </h2>
       <br>
-      <table class = "table">
+      <table class ="table table-bordered table-striped">
         <thead>
           <tr>
-            <th>Player ID</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Offensive Position</th>
@@ -58,8 +57,8 @@
             <th>Receptions</th>
             <th>Reception Touchdowns</th>
             <th>Targets</th>
-            <th>Tackles</th>
             <th>Sacks</th>
+            <th>Tackles</th>
             <th>Interceptions</th>
             <th>Defensive_Touchdowns</th>
             <th>Touchdowns(Total)</th>
@@ -99,8 +98,8 @@
               <td>$row[Receptions]</td>
               <td>$row[Reception_Touchdowns]</td>
               <td>$row[Targets]</td>
-              <td>$row[Tackles]</td>
               <td>$row[Sacks]</td>
+              <td>$row[Tackles]</td>
               <td>$row[Interceptions]</td>
               <td>$row[Defensive_Touchdowns]</td>
               <td>$row[Total_Touchdowns]</td>

@@ -120,3 +120,86 @@
   </div>
   </nav>
   </header>
+  <div >
+    <h2> List of players </h2>
+    <br>
+    <table class ="table table-bordered table-sm" style="width:10%">
+      <thead>
+        <tr>
+          <th>Player ID</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Offensive Position</th>
+          <th>Defensive Position</th>
+          <th>Games Played</th>
+          <th>Passing Yards</th>
+          <th>Passing Attempts</th>
+          <th>Passes Completed</th>
+          <th>Interceptions Thrown</th>
+          <th>Passing Touchdowns</th>
+          <th>Rushing Attempts</th>
+          <th>Rushing Yards</th>
+          <th>Rushing Touchdowns</th>
+          <th>Receiving Yards</th>
+          <th>Receptions</th>
+          <th>Reception Touchdowns</th>
+          <th>Targets</th>
+          <th>Sacks</th>
+          <th>Tackles</th>
+          <th>Interceptions</th>
+          <th>Defensive_Touchdowns</th>
+          <th>Touchdowns(Total)</th>
+          <th>ID Teams</th>
+          <th>Operations</th>
+        </tr>
+      <thead>
+        <?php
+        $servername = "hffldb.crex5mtah7fd.us-east-2.rds.amazonaws.com";
+        $username = "admin499";
+        $password = "ICS49922";
+        $database = "hffl";
+
+        $conn = new mysqli($servername, $username, $password, $database);
+        if ($conn->connect_error){
+          die("Connection failed: " . $conn->connect_error);
+        }
+        $sql = "SELECT * FROM players";
+        $result = $conn->query($sql);
+
+        while($row = $result->fetch_assoc()){
+        echo "
+          <tr>
+            <td>$row[Player_id]</td>
+            <td>$row[Player_First_Name]</td>
+            <td>$row[Player_Last_Name]</td>
+            <td>$row[Player_Offensive_Position]</td>
+            <td>$row[Player_Defensive_Position]</td>
+            <td>$row[Games_Played]</td>
+            <td>$row[Passing_yards]</td>
+            <td>$row[Passing_attempts]</td>
+            <td>$row[Passes_completed]</td>
+            <td>$row[Interceptions_thrown]</td>
+            <td>$row[Passing_touchdowns]</td>
+            <td>$row[Rushing_attempts]</td>
+            <td>$row[Rushing_yards]</td>
+            <td>$row[Rushing_touchdowns]</td>
+            <td>$row[Receiving_yards]</td>
+            <td>$row[Receptions]</td>
+            <td>$row[Reception_Touchdowns]</td>
+            <td>$row[Targets]</td>
+            <td>$row[Sacks]</td>
+            <td>$row[Tackles]</td>
+            <td>$row[Interceptions]</td>
+            <td>$row[Defensive_Touchdowns]</td>
+            <td>$row[Total_Touchdowns]</td>
+            <td>$row[idteams]</td>
+            <td>
+              <button><a href= adminupdateplayer.php>Update</a></button>
+              <button><a href= admindeleteplayer.php>Delete</a></button>
+            </td>
+          </tr>
+          ";
+        }
+        ?>
+    </table>
+  </div>

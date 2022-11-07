@@ -120,3 +120,37 @@
   </div>
   </nav>
   </header>
+  <div class="container h-100%">
+    <h1> Update </h1>
+    <form action="teamupdate.php" method="post">
+    <!-- Name input -->
+    <div class="form-outline mb-4">
+      <input type="text" name="teamid" class="form-control" />
+      <label class="form-label" for="1playerid">Team ID</label>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="text" name="teamname" class="form-control" />
+      <label class="form-label" for="1playerid">Team Name</label>
+    </div>
+
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="text" name="wins" class="form-control" />
+      <label class="form-label">Wins</label>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="text" name="losses" class="form-control" />
+      <label class="form-label">Losses</label>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="text" name="WLRatio" class="form-control" />
+      <label class="form-label">Win Loss Ratio</label>
+    </div>
+
+
+  <!-- Submit button -->
+  <button name="submitAdd" class="btn btn-primary btn-block mb-4">Update Team</button>
+</div>

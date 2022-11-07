@@ -57,117 +57,170 @@
         <th>Wins</th>
         <th>Losses</th>
       </tr>
-      <tr>
-        <td>Witness</td>
-        <td>20</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>Blue Dragons</td>
-        <td>18</td>
-        <td>5</td>
-      </tr>
-      <tr>
-        <td>Plaza Boyz</td>
-        <td>17</td>
-        <td>6</td>
-      </tr>
+      <?php
+      $servername = "hffldb.crex5mtah7fd.us-east-2.rds.amazonaws.com";
+      $username = "admin499";
+      $password = "ICS49922";
+      $database = "hffl";
+
+      $conn = new mysqli($servername, $username, $password, $database);
+      if ($conn->connect_error){
+        die("Connection failed: " . $conn->connect_error);
+      }
+      $sql = "SELECT * FROM (SELECT team_name, wins, losses from teams order by wins desc,team_name asc limit 3) tbl
+order by wins DESC;";
+      $result = $conn->query($sql);
+
+      while($row = $result->fetch_assoc()){
+      echo "
+        <tr>
+          <td>$row[team_name]</td>
+          <td>$row[wins]</td>
+          <td>$row[losses]</td>
+        </tr>
+        ";
+      }
+      ?>
     </table>
   </div>
   <div class="d-flex justify-content-evenly">
     <table class = "table table-bordered table-striped caption-top">
       <caption>Top Passers:</caption>
       <tr>
-        <th>Name</th>
+        <th>First Name</th>
+        <th>Last Name</th>
         <th>Passing yards</th>
         <th>Passing TD's</th>
       </tr>
-      <tr>
-        <td>Mike Vang</td>
-        <td>900</td>
-        <td>12</td>
-      </tr>
-      <tr>
-        <td>Andrew Chang</td>
-        <td>789</td>
-        <td>15</td>
-      </tr>
-      <tr>
-        <td>Ross Johnson</td>
-        <td>750</td>
-        <td>11</td>
-      </tr>
+      <?php
+      $servername = "hffldb.crex5mtah7fd.us-east-2.rds.amazonaws.com";
+      $username = "admin499";
+      $password = "ICS49922";
+      $database = "hffl";
+
+      $conn = new mysqli($servername, $username, $password, $database);
+      if ($conn->connect_error){
+        die("Connection failed: " . $conn->connect_error);
+      }
+      $sql = "SELECT * FROM (SELECT Player_First_Name, Player_Last_Name,Passing_yards , Passing_touchdowns from players order by Passing_yards desc,Player_First_Name desc limit 3) tbl
+order by Passing_yards DESC;";
+      $result = $conn->query($sql);
+
+      while($row = $result->fetch_assoc()){
+      echo "
+        <tr>
+          <td>$row[Player_First_Name]</td>
+          <td>$row[Player_Last_Name]</td>
+          <td>$row[Passing_yards]</td>
+          <td>$row[Passing_touchdowns]</td>
+        </tr>
+        ";
+      }
+      ?>
     </table>
     <table class = "table table-bordered table-striped caption-top">
       <caption>Top Rushers:</caption>
       <tr>
-        <th>Name</th>
+        <th>First Name</th>
+        <th>Last Name</th>
         <th>Rushing Yards</th>
         <th>Rushing TD's</th>
       </tr>
-      <tr>
-        <td>Van Brookes</td>
-        <td>503</td>
-        <td>10</td>
-      </tr>
-      <tr>
-        <td>Tony Yang</td>
-        <td>501</td>
-        <td>12</td>
-      </tr>
-      <tr>
-        <td>Ger Lao</td>
-        <td>489</td>
-        <td>9</td>
-      </tr>
+      <?php
+      $servername = "hffldb.crex5mtah7fd.us-east-2.rds.amazonaws.com";
+      $username = "admin499";
+      $password = "ICS49922";
+      $database = "hffl";
+
+      $conn = new mysqli($servername, $username, $password, $database);
+      if ($conn->connect_error){
+        die("Connection failed: " . $conn->connect_error);
+      }
+      $sql = "SELECT * FROM (SELECT Player_First_Name, Player_Last_Name,Rushing_yards , Rushing_touchdowns from players order by Rushing_yards desc,Player_First_Name desc limit 3) tbl
+order by Rushing_yards DESC;";
+      $result = $conn->query($sql);
+
+      while($row = $result->fetch_assoc()){
+      echo "
+        <tr>
+          <td>$row[Player_First_Name]</td>
+          <td>$row[Player_Last_Name]</td>
+          <td>$row[Rushing_yards]</td>
+          <td>$row[Rushing_touchdowns]</td>
+        </tr>
+        ";
+      }
+      ?>
     </table>
   </div>
   <div class="d-flex justify-content-evenly">
     <table class = "table table-bordered table-striped caption-top ">
       <caption>Top Recievers:</caption>
       <tr>
-        <th>Name</th>
+        <th>First Name</th>
+        <th>Last Name</th>
         <th>Receiving Yard's</th>
         <th>Receiving TD's</th>
       </tr>
-      <tr>
-        <td>Noah Brown</td>
-        <td>603</td>
-        <td>15</td>
-      </tr>
-      <tr>
-        <td>Yusuf Aburia</td>
-        <td>599</td>
-        <td>11</td>
-      </tr>
-      <tr>
-        <td>James Yang</td>
-        <td>549</td>
-        <td>12</td>
-      </tr>
+      <?php
+      $servername = "hffldb.crex5mtah7fd.us-east-2.rds.amazonaws.com";
+      $username = "admin499";
+      $password = "ICS49922";
+      $database = "hffl";
+
+      $conn = new mysqli($servername, $username, $password, $database);
+      if ($conn->connect_error){
+        die("Connection failed: " . $conn->connect_error);
+      }
+      $sql = "SELECT * FROM (SELECT Player_First_Name, Player_Last_Name,Receiving_yards , Reception_touchdowns from players order by Receiving_yards desc,Player_First_Name desc limit 3) tbl
+order by Receiving_yards DESC;";
+      $result = $conn->query($sql);
+
+      while($row = $result->fetch_assoc()){
+      echo "
+        <tr>
+          <td>$row[Player_First_Name]</td>
+          <td>$row[Player_Last_Name]</td>
+          <td>$row[Receiving_yards]</td>
+          <td>$row[Reception_touchdowns]</td>
+        </tr>
+        ";
+      }
+      ?>
     </table>
     <table class = "table table-bordered table-striped caption-top">
       <caption>Top Defenders:</caption>
       <tr>
-        <th>Name</th>
+        <th>First Name</th>
+        <th>Last Name</th>
         <th>Sacks</th>
         <th>Tackles</th>
       </tr>
-      <tr>
-        <td>Mohamed Mahdy</td>
-        <td>17</td>
-        <td>10</td>
-      </tr>
-      <tr>
-        <td>Jimmy Vang</td>
-        <td>16</td>
-        <td>15</td>
-      </tr>
-      <tr>
-        <td>Sterling Willie</td>
-        <td>15</td>
-        <td>12</td>
-      </tr>
+      <?php
+      $servername = "hffldb.crex5mtah7fd.us-east-2.rds.amazonaws.com";
+      $username = "admin499";
+      $password = "ICS49922";
+      $database = "hffl";
+
+      $conn = new mysqli($servername, $username, $password, $database);
+      if ($conn->connect_error){
+        die("Connection failed: " . $conn->connect_error);
+      }
+      $sql = "SELECT * FROM (SELECT Player_First_Name, Player_Last_Name,Sacks , Tackles from players order by Sacks desc,Player_First_Name desc limit 3) tbl
+order by Sacks DESC;";
+      $result = $conn->query($sql);
+
+      while($row = $result->fetch_assoc()){
+      echo "
+        <tr>
+          <td>$row[Player_First_Name]</td>
+          <td>$row[Player_Last_Name]</td>
+          <td>$row[Sacks]</td>
+          <td>$row[Tackles]</td>
+        </tr>
+        ";
+      }
+      ?>
     </table>
   </div>
 </body>

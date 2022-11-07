@@ -120,3 +120,14 @@
   </div>
   </nav>
   </header>
+  <div class="container h-100%">
+    <h1> Delete </h1>
+    <form action="teamdelete.php" method="post">
+    <!-- Name input -->
+    <div class="form-outline mb-4">
+      <input type="text" name="teamid" class="form-control" />
+      <label class="form-label" for="1teamid">Team ID</label>
+    </div>
+  <!-- Submit button -->
+  <button name="submit" class="btn btn-primary btn-block mb-4">Delete team</button>
+</div>\
