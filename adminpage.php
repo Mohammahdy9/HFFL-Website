@@ -120,3 +120,14 @@
   </div>
   </nav>
   </header>
+  <div class="jumbotron justify-content-between" style="width:100%" >
+  <div class="container">
+    <h2 class="display-4">Version.01</h2>
+  </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid justify-content-between">
+  <div class="container">
+    <h1 class="display-4">Welcome ADMIN</h1>
+    <p class="lead">Use the navagation bar above to add, update, and/or delete data</p>
+  </div>
+</div>
