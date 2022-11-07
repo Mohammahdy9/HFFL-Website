@@ -26,7 +26,7 @@
         <a class="nav-link" href="players.php">Players</a>
         <a class="nav-link" href="teams.php">Teams</a>
         <a class="nav-link" href="matches.php">Matches</a>
-        <a class="nav-link" href="tournaments.php">Matches</a>
+        <a class="nav-link" href="tournaments.php">Tournaments</a>
         <a href="players.php" class="btn btn-danger" role="button">ADMIN</a>
       </div>
     </div>
