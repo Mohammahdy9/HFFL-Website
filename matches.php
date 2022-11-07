@@ -45,32 +45,38 @@
   </div>
   </nav>
   </header>
-  <body>
-    <table>
-  <tr>
-    <td>    <img src="HFFL images/team.png" alt="team Icon" />
-    </td>
-    <td>vs</td>
-    <td>    <img src="HFFL images/team.png" alt="team Icon" />
-    </td>
-  </tr>
-  <tr>
-    <td>Team name</td>
-    <td></td>
-    <td>Team name</td>
-  </tr>
-  <tr>
-    <td>    <img src="HFFL images/team.png" alt="team Icon" />
-    </td>
-    <td>vs</td>
-    <td>    <img src="HFFL images/team.png" alt="team Icon" />
-    </td>
-  </tr>
-  <tr>
-    <td>Team name</td>
-    <td></td>
-    <td>Team name</td>
-  </tr>
-</table>
-  </body>
+</header>
+<body>
+  <div class = "container my-5">
+    <h2> List of Matches </h2>
+    <br>
+    <table class = "table">
+      <thead>
+        <tr>
+          <th>Team 1</th>
+          <th>Team 2</th>
+          <th>Quater</th>
+          <th>Winner</th>
+        </tr>
+        <tr>
+          <td>Phenoms</td>
+          <td>Doomsday</td>
+          <td>1st Quater</td>
+          <td>Inprogress</td>
+        </tr>
+        <tr>
+          <td>Black Venom</td>
+          <td>Witness</td>
+          <td>3rd Quater</td>
+          <td>Inprogress</td>
+        </tr>
+        <tr>
+          <td>Plaza Boyz</td>
+          <td>Crewsaders</td>
+          <td>Finished</td>
+          <td>Crewsaders</td>
+        </tr>
+    </table>
+  </div>
+</body>
 </html>

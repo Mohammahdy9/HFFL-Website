@@ -40,21 +40,21 @@
   <ul class="round round-1">
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top winner">Lousville <span>79</span></li>
+    <li class="game game-top winner">Witness <span>79</span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom ">NC A&T <span>48</span></li>
+    <li class="game game-bottom ">Black Venom <span>48</span></li>
 
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top winner">Colo St <span>84</span></li>
+    <li class="game game-top winner">Plaza Boyz <span>84</span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom ">Missouri <span>72</span></li>
+    <li class="game game-bottom ">Phenoms <span>72</span></li>
 
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top ">Oklahoma St <span>55</span></li>
+    <li class="game game-top ">Doomsday <span>55</span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom winner">Oregon <span>68</span></li>
+    <li class="game game-bottom winner">Crewsaders <span>68</span></li>
 
     <li class="spacer">&nbsp;</li>
 
@@ -62,15 +62,15 @@
   <ul class="round round-2">
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top winner">Lousville <span>82</span></li>
+    <li class="game game-top winner">Black Venom <span>82</span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom ">Colo St <span>56</span></li>
+    <li class="game game-bottom ">Phenoms <span>56</span></li>
 
     <li class="spacer">&nbsp;</li>
 
     <li class="game game-top ">BYE WEEK <span></span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom winner">Mich St <span>70</span></li>
+    <li class="game game-bottom winner">Crewsaders <span>70</span></li>
 
     <li class="spacer">&nbsp;</li>
 
@@ -78,9 +78,9 @@
   <ul class="round round-3">
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top winner">Lousville <span>77</span></li>
+    <li class="game game-top winner">Black Venom <span>77</span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom ">Oregon <span>69</span></li>
+    <li class="game game-bottom ">Crewsaders <span>69</span></li>
 
     <li class="spacer">&nbsp;</li>
 
@@ -88,7 +88,7 @@
   <ul class="round round-4">
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top winner">Lousville <span>85</span></li>
+    <li class="game game-top winner">Black Venom <span>85</span></li>
     <li class="spacer">&nbsp;</li>
   </ul>
 </main>
@@ -99,21 +99,21 @@
   <ul class="round round-1">
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top winner">Lousville <span>79</span></li>
+    <li class="game game-top winner">Witness <span>79</span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom ">NC A&T <span>48</span></li>
+    <li class="game game-bottom ">Phenoms <span>48</span></li>
 
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top winner">Colo St <span>84</span></li>
+    <li class="game game-top winner">Crewsaders <span>84</span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom ">Missouri <span>72</span></li>
+    <li class="game game-bottom ">Black Venom <span>72</span></li>
 
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top ">Oklahoma St <span>55</span></li>
+    <li class="game game-top ">Plaza Boyz <span>55</span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom winner">Oregon <span>68</span></li>
+    <li class="game game-bottom winner">Doomsday <span>68</span></li>
 
     <li class="spacer">&nbsp;</li>
 
@@ -121,15 +121,15 @@
   <ul class="round round-2">
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top winner">Lousville <span>82</span></li>
+    <li class="game game-top winner">Witness <span>82</span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom ">Colo St <span>56</span></li>
+    <li class="game game-bottom ">Crewsaders <span>56</span></li>
 
     <li class="spacer">&nbsp;</li>
 
     <li class="game game-top ">BYE WEEK <span></span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom winner">Mich St <span>70</span></li>
+    <li class="game game-bottom winner">Doomsday <span>70</span></li>
 
     <li class="spacer">&nbsp;</li>
 
@@ -137,9 +137,9 @@
   <ul class="round round-3">
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top winner">Lousville <span>77</span></li>
+    <li class="game game-top winner">Witness <span>77</span></li>
     <li class="game game-spacer">&nbsp;</li>
-    <li class="game game-bottom ">Oregon <span>69</span></li>
+    <li class="game game-bottom ">Doomsday<span>69</span></li>
 
     <li class="spacer">&nbsp;</li>
 
@@ -147,7 +147,7 @@
   <ul class="round round-4">
     <li class="spacer">&nbsp;</li>
 
-    <li class="game game-top winner">Lousville <span>85</span></li>
+    <li class="game game-top winner">Witness <span>85</span></li>
     <li class="spacer">&nbsp;</li>
   </ul>
 </main>
