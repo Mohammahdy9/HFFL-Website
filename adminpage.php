@@ -39,38 +39,9 @@
         <a class="nav-link" href="teams.php">Teams</a>
         <a class="nav-link" href="matches.php">Matches</a>
         <a class="nav-link" href="tournaments.php">Tournaments</a>
-        <a href="adminlog.php" class="btn btn-danger" role="button">ADMIN</a>
+        <a href="index.php" class="btn btn-danger" role="button">NORMAL VIEW</a>
       </div>
     </div>
   </div>
   </nav>
   </header>
-  <body>
-    <table>
-  <tr>
-    <td>    <img src="HFFL images/team.png" alt="team Icon" />
-    </td>
-    <td>vs</td>
-    <td>    <img src="HFFL images/team.png" alt="team Icon" />
-    </td>
-  </tr>
-  <tr>
-    <td>Team name</td>
-    <td></td>
-    <td>Team name</td>
-  </tr>
-  <tr>
-    <td>    <img src="HFFL images/team.png" alt="team Icon" />
-    </td>
-    <td>vs</td>
-    <td>    <img src="HFFL images/team.png" alt="team Icon" />
-    </td>
-  </tr>
-  <tr>
-    <td>Team name</td>
-    <td></td>
-    <td>Team name</td>
-  </tr>
-</table>
-  </body>
-</html>
