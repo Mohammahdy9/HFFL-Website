@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <title>Players Page</title>
@@ -7,7 +8,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <img class="logo" src="HFFL images/hffl.jpg" alt="HFFL LOGO" width="85">
     <button
       class="navbar-toggler"
       type="button"
@@ -19,13 +20,14 @@
     >
       <i class="fas fa-bars"></i>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         <a class="nav-link" href="players.php">Players</a>
         <a class="nav-link" href="teams.php">Teams</a>
         <a class="nav-link" href="matches.php">Matches</a>
         <a class="nav-link" href="tournaments.php">Matches</a>
+        <a href="players.php" class="btn btn-danger" role="button">ADMIN</a>
       </div>
     </div>
   </div>
@@ -33,7 +35,7 @@
   </header>
   <body>
     <div class = "container my-5">
-      <h2> List of players </h2>
+      <h2> List of teams </h2>
       <br>
       <table class = "table">
         <thead>
