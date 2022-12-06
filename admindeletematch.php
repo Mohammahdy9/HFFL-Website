@@ -123,8 +123,8 @@
     <!-- Name input -->
     <div class="form-outline mb-4">
       <input type="text" name="playerid" class="form-control" />
-      <label class="form-label" for="1playerid">Player ID</label>
+      <label class="form-label" for="1playerid">Match ID</label>
     </div>
   <!-- Submit button -->
-  <button name="submit" class="btn btn-primary btn-block mb-4">Delete Player</button>
+  <button name="submit" class="btn btn-primary btn-block mb-4">Delete Match</button>
 </div>

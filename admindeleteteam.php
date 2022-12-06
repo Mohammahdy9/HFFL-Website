@@ -108,10 +108,7 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="admintournaments.php">Players List</a>
-            <a href="adminaddtournaments.php">Add Player</a>
-            <a href="adminupdatetournaments.php">Update Player</a>
-            <a href="admindeletetournaments.php">Delete Player</a>
+            <a href="admintournaments.php">Tournaments view</a>
           </div>
         </div>
         <a href="index.php" class="btn btn-danger" role="button">NORMAL VIEW</a>

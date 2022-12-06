@@ -118,13 +118,39 @@
   </nav>
   </header>
   <div class="container h-100%">
-    <h1> Delete </h1>
-    <form action="playerdelete.php" method="post">
-    <!-- Name input -->
+    <h1> Update </h1>
+    <form action="adminpage.php" method="post">
+
+      <div class="form-outline mb-4">
+        <input type="text" name="teamid" class="form-control" />
+        <label class="form-label">Match ID</label>
+      </div>
+
     <div class="form-outline mb-4">
-      <input type="text" name="playerid" class="form-control" />
-      <label class="form-label" for="1playerid">Player ID</label>
+      <input type="text" name="teamid" class="form-control" />
+      <label class="form-label">Team ID #1</label>
     </div>
+
+    <div class="form-outline mb-4">
+      <input type="text" name="teamid2" class="form-control" />
+      <label class="form-label">Team ID #2</label>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="text" name="teamid" class="form-control" />
+      <label class="form-label">Team #1 Score</label>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="text" name="teamid" class="form-control" />
+      <label class="form-label">Team #2 Score</label>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="text" name="teamid" class="form-control" />
+      <label class="form-label">Match Winner</label>
+    </div>
+
   <!-- Submit button -->
-  <button name="submit" class="btn btn-primary btn-block mb-4">Delete Player</button>
+  <button name="submitAdd" class="btn btn-primary btn-block mb-4">Update Match</button>
 </div>

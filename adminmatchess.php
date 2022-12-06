@@ -117,14 +117,36 @@
   </div>
   </nav>
   </header>
-  <div class="container h-100%">
-    <h1> Delete </h1>
-    <form action="playerdelete.php" method="post">
-    <!-- Name input -->
-    <div class="form-outline mb-4">
-      <input type="text" name="playerid" class="form-control" />
-      <label class="form-label" for="1playerid">Player ID</label>
+  <body>
+    <div class = "container my-5">
+      <h2> List of Matches </h2>
+      <br>
+      <table class = "table">
+        <thead>
+          <tr>
+            <th>Team 1</th>
+            <th>Team 2</th>
+            <th>Quater</th>
+            <th>Winner</th>
+          </tr>
+          <tr>
+            <td>Phenoms</td>
+            <td>Doomsday</td>
+            <td>1st Quater</td>
+            <td>Inprogress</td>
+          </tr>
+          <tr>
+            <td>Black Venom</td>
+            <td>Witness</td>
+            <td>3rd Quater</td>
+            <td>Inprogress</td>
+          </tr>
+          <tr>
+            <td>Plaza Boyz</td>
+            <td>Crewsaders</td>
+            <td>Finished</td>
+            <td>Crewsaders</td>
+          </tr>
+      </table>
     </div>
-  <!-- Submit button -->
-  <button name="submit" class="btn btn-primary btn-block mb-4">Delete Player</button>
-</div>
+  </body>
