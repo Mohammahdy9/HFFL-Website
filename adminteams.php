@@ -108,7 +108,7 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="admintournaments.php">Tournaments view</a>
+            <a href="admintournaments.php"></a>
           </div>
         </div>
         <a href="index.php" class="btn btn-danger" role="button">NORMAL VIEW</a>
@@ -154,7 +154,7 @@
               <td>$row[losses]</td>
               <td>$row[win_loss_ratio]</td>
               <td>
-                <button><a href= adminupdateteam.php>Update</a></button>
+                <button><a href= adminupdateteam.php?id=$row[idteams]>Update</a></button>
                 <button><a href= admindeleteteam.php>Delete</a></button>
               </td>
             </tr>

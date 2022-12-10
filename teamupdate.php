@@ -22,22 +22,29 @@
         }
 
         // Taking all 5 values from the form data(input)
-          $idteams =  $_POST['teamid'];
-          $teamname =  $_POST['teamname'];
-          $wins =  $_POST['wins'];
-          $losses = $_POST['losses'];
-          $win_loss_ratio=  $_POST['WLRatio'];
-          $sql = "UPDATE teams (idteams,team_name,wins,losses,win_loss_ratio) SET ('$idteams','$teamname','$wins','$losses','$win_loss_ratio') WHERE idteams=$idteams";
+          $idteams =  $_POST['idteams'];
+          
+
+          $fields = array('teamname','wins','losses');
+
+          // Loop through the fields
+          foreach ($fields as $field) {
+            // Check if the field is not empty
+            if (!empty($_POST[$field])) {
+              // Update the field in the database
+              $query = "UPDATE teams SET $field = '$_POST[$field]' WHERE idteams=$idteams";
+              $result = $conn->query($query);
+            }
+          }
 
 
-
-        if(mysqli_query($conn, $sql)){
+        if(mysqli_query($conn, $query)){
               echo "<h3>data stored in a database successfully."
                   . " Please browse "
                   . " to view the updated data</h3>";
             //
           } else{
-              echo "ERROR: Hush! Sorry $sql. "
+              echo "ERROR: Hush! Sorry $query. "
                   . mysqli_error($conn);
                 }
 

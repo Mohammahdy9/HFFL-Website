@@ -128,115 +128,115 @@
 
     <!-- Email input -->
     <div class="form-outline mb-4">
-      <input type="text" name="firstname" class="form-control" />
+      <input type="text" name="Player_First_Name" class="form-control" />
       <label class="form-label">First Name</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="lastname" class="form-control" />
+      <input type="text" name="Player_Last_Name" class="form-control" />
       <label class="form-label">Last Name</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="offensepos" class="form-control" />
+      <input type="text" name="Player_Offensive_Position" class="form-control" />
       <label class="form-label">Player Offensive Position</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="defensepos" class="form-control" />
+      <input type="text" name="Player_Defensive_Position" class="form-control" />
       <label class="form-label">Player Defensive Position</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="gamesplayed" class="form-control" />
+      <input type="text" name="Games_Played" class="form-control" />
       <label class="form-label">Games Played</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="passyards" class="form-control" />
+      <input type="text" name="Passing_yards" class="form-control" />
       <label class="form-label">Passing Yards</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="passatt" class="form-control" />
+      <input type="text" name="Passing_attempts" class="form-control" />
       <label class="form-label">Passing Attempts</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="passcomp" class="form-control" />
+      <input type="text" name="Passes_completed" class="form-control" />
       <label class="form-label">Passes Completed</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="intqb" class="form-control" />
+      <input type="text" name="Interceptions_thrown" class="form-control" />
       <label class="form-label">Interceptions Thrown</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="passtds" class="form-control" />
+      <input type="text" name="Passing_touchdowns" class="form-control" />
       <label class="form-label">Passing Touchdowns</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="rushatt" class="form-control" />
+      <input type="text" name="Rushing_attempts" class="form-control" />
       <label class="form-label">Rushing Attempts</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="rushyards" class="form-control" />
+      <input type="text" name="Rushing_yards" class="form-control" />
       <label class="form-label">Rushing Yards</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="rushtds" class="form-control" />
+      <input type="text" name="Rushing_touchdowns" class="form-control" />
       <label class="form-label">Rushing Touchdowns</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="recyards" class="form-control" />
+      <input type="text" name="Receiving_yards" class="form-control" />
       <label class="form-label">Receiving Yards</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="rec" class="form-control" />
+      <input type="text" name="Receptions" class="form-control" />
       <label class="form-label">Receptions</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="targets" class="form-control" />
+      <input type="text" name="Targets" class="form-control" />
       <label class="form-label">Targets</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="tackles" class="form-control" />
+      <input type="text" name="Tackles" class="form-control" />
       <label class="form-label">Tackles</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="sacks" class="form-control" />
+      <input type="text" name="Sacks" class="form-control" />
       <label class="form-label">Sacks</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="intd" class="form-control" />
+      <input type="text" name="Interceptions" class="form-control" />
       <label class="form-label">Interceptions</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="dtds" class="form-control" />
+      <input type="text" name="Defensive_Touchdowns" class="form-control" />
       <label class="form-label">Defensive Touchdowns</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="tot" class="form-control" />
+      <input type="text" name="Total_Touchdowns" class="form-control" />
       <label class="form-label">Total Touchdowns</label>
     </div>
 
     <div class="form-outline mb-4">
-      <input type="text" name="teamid" class="form-control" />
+      <input type="text" name="idteams" class="form-control" />
       <label class="form-label">Team ID</label>
     </div>
 
   <!-- Submit button -->
-  <button name="submitAdd" class="btn btn-primary btn-block mb-4">Add Player</button>
+  <button name="submitAdd" class="btn btn-primary btn-block mb-4">Update Player</button>
 </div>

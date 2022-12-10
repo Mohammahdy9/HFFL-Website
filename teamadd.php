@@ -26,8 +26,7 @@
           $teamname =  $_POST['teamname'];
           $wins =  $_POST['wins'];
           $losses = $_POST['losses'];
-          $win_loss_ratio=  $_POST['WLRatio'];
-          $sql = "INSERT INTO teams (idteams,team_name,wins,losses,win_loss_ratio) VALUES ('$idteams','$teamname','$wins','$losses','$win_loss_ratio')";
+          $sql = "INSERT INTO teams (idteams,team_name,wins,losses) VALUES ('$idteams','$teamname','$wins','$losses')";
 
 
 

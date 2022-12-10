@@ -122,7 +122,7 @@
     <form action="teamupdate.php" method="post">
     <!-- Name input -->
     <div class="form-outline mb-4">
-      <input type="text" name="teamid" class="form-control" />
+      <input type="text" name="idteams" class="form-control" />
       <label class="form-label" for="1playerid">Team ID</label>
     </div>
 
@@ -141,12 +141,6 @@
       <input type="text" name="losses" class="form-control" />
       <label class="form-label">Losses</label>
     </div>
-
-    <div class="form-outline mb-4">
-      <input type="text" name="WLRatio" class="form-control" />
-      <label class="form-label">Win Loss Ratio</label>
-    </div>
-
 
   <!-- Submit button -->
   <button name="submitAdd" class="btn btn-primary btn-block mb-4">Update Team</button>
